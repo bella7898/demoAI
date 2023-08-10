@@ -101,15 +101,16 @@ p{
 
 .slidecontainer {
     width: 50%; /* Width of the outside container */
-  }
+    float: left;
+}
   
   /* The slider itself */
   .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
-    width: 100%; /* Full-width */
+    width: 95%; /* Full-width */
     height: 20px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
+    background: #1e2124; /* Grey background */
     outline: none; /* Remove outline */
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
@@ -128,7 +129,7 @@ p{
     appearance: none;
     width: 40px; /* Set a specific slider handle width */
     height: 20px; /* Slider handle height */
-    background: #04AA6D; /* Green background */
+    background: linear-gradient(to right,#ff6e7f, #bfe9ff); /* Green background */
     cursor: pointer; /* Cursor on hover */
     border-radius: 15px;
   }
@@ -140,7 +141,7 @@ p{
   background: #04AA6D; /* Green background 
   cursor: pointer; /* Cursor on hover 
 }
-
+*/
 
 button{
     padding: 5px 50px;
@@ -150,14 +151,13 @@ button{
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.25);
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'NTR', sans-serif;
 }
 
 button:hover{
     background: linear-gradient(rgba(255, 110, 127, 0.7), rgba(191, 233, 255, 0.7));
 }
-*/
 
 footer{
     position: absolute; 
