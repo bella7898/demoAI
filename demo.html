@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=NTR&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9f85037272.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="demo">
     <canvas id="Matrix"></canvas>
     <script src="./index.js"></script>
     <div class="overlay">
@@ -40,10 +40,18 @@
         <div class="sliders">
             <div class="slidecontainer">
                 <p>Formal/Casual</p>
-                <input type="range" min="1" max="100" value="50" class="slider">
+                <input type="range" min="1" max="100" value="20" class="slider">
             </div>
             <div class="slidecontainer">
-                <p>Introversion/Extroversion</p>
+                <p>Introverted/Extroverted</p>
+                <input type="range" min="1" max="100" value="80" class="slider">
+            </div>
+            <div class="slidecontainer">
+                <p>Friendly/Challenging</p>
+                <input type="range" min="1" max="100" value="10" class="slider">
+            </div>
+            <div class="slidecontainer">
+                <p>Organized/Careless</p>
                 <input type="range" min="1" max="100" value="50" class="slider">
             </div>
         </div>

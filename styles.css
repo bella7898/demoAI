@@ -4,19 +4,12 @@ html, body{
     height: 100%;
 }
 
-.flex-container{
-    overflow-y: hidden;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 .navbar span{
     background: -webkit-linear-gradient(#ff6e7f, #bfe9ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 20px;
-    font-weight:bold
+    font-weight: bold;
 }
 
 body{
@@ -61,7 +54,7 @@ p{
     height: 50px;
 }
 
-.about p{
+.about p, .society p{
     font-size: 25px;
     height: 20px;
     line-height: 35px;
@@ -106,7 +99,7 @@ p{
 }
 
 .slidecontainer {
-    width: 50%; /* Width of the outside container */
+    width: 25%; /* Width of the outside container */
     float: left;
 }
   
@@ -155,7 +148,7 @@ button{
     margin-top: 20px;
     border: none;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.25);
+    background: linear-gradient(rgba(255, 110, 127, 0.5), rgba(191, 233, 255, 0.5));
     color: white;
     font-size: 20px;
     font-family: 'NTR', sans-serif;
